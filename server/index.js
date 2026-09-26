@@ -28,7 +28,7 @@ app.use(express.json())
 app.use(cookieParser())
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://ai-website-builder-1-e851.onrender.com",
     credentials: true
 }))
 
